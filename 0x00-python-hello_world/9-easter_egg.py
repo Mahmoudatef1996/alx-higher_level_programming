@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print(help('this')[0:857])
+help_text = help('this')
+if help_text is not None:
+  print(help_text[0:857])
